@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A new To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"> </script>
+    
+</head>
+
+<body>
+    <div id="main" class="main">
+    <header class="title">
+        <h2 class="titlename"><strong>Lista de Tarefas</strong></h2>
+        <div class="controls">  
+            <input type="text" id="insert" placeholder="Título...">
+            <button id='addbtn' onclick="addTask()">Adicionar</button>      
+        </div>
+    </header>
+
+    <div id="list" class='list'>
+        <ul id="tasklist" ></ul>
+    </div>
+
+    <div id="deletecontrol" class="controls">
+        <button id="deletebtn" onclick="deleteAllTasks()">Excluir Lista</button>
+    </div>
+
+    <div id="credits" class="copyright">
+        <p> ⓒ All rights reserved by Bianca Bobotis and Sthefany Evelyn, 2021.</p>
+    </div> 
+
+    </div>
+
+
+    
+</body>
+</html>

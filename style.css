@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Indie+Flower&family=Lobster&display=swap');
+
+
+body{
+    margin: auto;
+    padding: none;
+    background-color: rgb(42, 209, 153);
+}
+
+.controls{
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.title{
+    background-color: rgb(42, 209, 153);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titlename{
+    font-family: 'Architects Daughter', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+#addbtn, #deletebtn{
+    width: 150px;
+    height: 35px;
+    color:rgb(38, 122, 94);
+    font-weight: bold;
+    background-color: rgb(252, 252, 252);
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+    font-family: 'Indie Flower', cursive;
+    font-size: 23px;
+}
+
+#addbtn:hover, #deletebtn:hover{
+    background-color: rgb(226, 215, 243);
+}
+
+#deletecontrol{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+} 
+
+#insert{
+    width: 300px;
+    height: 33px;
+    outline: none;
+    border-style: none;
+    font-family: 'Indie Flower', cursive;
+    font-size: 23px;
+}
+
+.list{
+    background-color: rgb(69, 182, 144);
+    cursor: pointer;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    font-size: 27px;
+    max-width: 75%;
+    margin-left: 13%;
+}
+
+.paragraph{
+    margin: 0;
+    width: 100%;
+}
+
+li{
+    display: flex;
+}
+
+#tasklist{
+    padding: 0;
+    margin-top: 0%;
+}
+
+ul li:nth-child(even){
+    background-color: rgb(97, 224, 182);
+}
+
+ul li:hover{
+    background-color: rgba(226, 215, 243, 0.849);
+}
+
+.checked{
+    text-decoration: line-through;
+    color: rgb(38, 122, 94);
+}
+
+.xbtn, .editbtn{
+    float: right;
+    height: 39px;
+    font-weight: bold;
+    outline: none;
+    border-style: none;
+    color:rgb(38, 122, 94);
+    cursor: pointer;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
+
+.xbtn:hover{
+    background-color: rgba(238, 134, 134, 0.849);
+}
+
+.editbtn:hover{
+    background-color: rgba(203, 176, 243, 0.849);
+}
+
+.donebtn{
+    float: right;
+    height: 39px;
+    font-weight: bold;
+    outline: none;
+    border-style: none;
+    color:rgb(38, 122, 94);
+    cursor: pointer;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
+
+.donebtn:hover{
+    background-color: rgba(195, 168, 236, 0.849);
+}
+
+.copyright{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+
+
+
